@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justice Law</title>
+    <link rel="stylesheet" href="style/style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a8144c5d0d.js" crossorigin="anonymous"></script>
+    <!-- tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'color-bg':'#B68C5A',
+                // 'banner-img':url('.../images/banner-img'),
+              }
+            }
+          }
+        }
+    </script>
+    <style>
+        .font-eb-garamond{
+        font-family: "EB Garamond", serif;
+    }
+        .font-poppins{
+        font-family: "Poppins", serif;
+    }
+    </style>
+</head>
+<body class="container mx-auto">
+    <header class="px-4">
+        <!-- navbar part -->
+        <nav class="mt-4">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <a class="btn btn-ghost text-xl"><img src="images/logo2.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="hover:text-color-bg text-lg font-medium duration-300 case-in-out"><a>Home</a></li>
+                    <li class="hover:text-color-bg text-lg font-medium duration-300 case-in-out"><a>Services</a></li>
+                    <li class="hover:text-color-bg text-lg font-medium duration-300 case-in-out"><a>Cases</a></li>
+                    <li class="hover:text-color-bg text-lg font-medium duration-300 case-in-out"><a>Blog</a></li>
+                    <li class="hover:text-color-bg text-lg font-medium duration-300 case-in-out"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-color-bg text-white text-lg">Free Consultation</a>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                        <li class="hover:text-color-bg  font-medium duration-300 case-in-out"><a>Home</a></li>
+                        <li class="hover:text-color-bg  font-medium duration-300 case-in-out"><a>Services</a></li>
+                        <li class="hover:text-color-bg  font-medium duration-300 case-in-out"><a>Cases</a></li>
+                        <li class="hover:text-color-bg  font-medium duration-300 case-in-out"><a>Blog</a></li>
+                        <li class="hover:text-color-bg  font-medium duration-300 case-in-out"><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        <!-- banner part -->
+        <div class="my-6 banner-1">
+            <div class=" text-white flex flex-col py-28">
+                <div class="md:w-3/5 mx-auto text-center space-y-6 px-4">
+                    <h1 class="text-3xl lg:text-7xl font-bold">We Provide Effective Legal Solutions</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="flex gap-3">
+                        <input class="p-3 rounded-lg w-full" type="text" placeholder="Search your services">
+                        <button><a class="btn bg-color-bg text-white text-lg px-6">Search</a></button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </header> 
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
